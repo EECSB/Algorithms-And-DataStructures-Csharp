@@ -6,7 +6,7 @@
         {
             //A list is a collection of values stored in memory(different parts of memory).
             //The elements in the list store the value itself and a pointer to the location of the next element.
-            //This makes a list slower than arrays for lookups, O(n) time complexity.
+            //This makes a list slower than arrays for lookups, O(n) time complexity. Note: Cache locality is also a reason arrays are faster: https://en.wikipedia.org/wiki/Locality_of_reference
             //But they are much more flexible when it comes to adding/removing elements.
             //Unlike arrays they don't have to be resized if the number of elements exceeds the originally allocated size.
             MyList<int> list = new MyList<int>();

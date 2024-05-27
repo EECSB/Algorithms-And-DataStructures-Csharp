@@ -4,7 +4,7 @@
     {
         /////////////////////// Stack properties ///////////////////////
 
-        internal Node<T> currentNode = null; //Refference to the last added node.
+        internal Node<T> currentNode = null; //Reference to the last added node.
 
         ////////////////////////////////////////////////////////////////
 
