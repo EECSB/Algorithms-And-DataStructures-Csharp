@@ -4,6 +4,28 @@
     {
         public static void RunAlgorithms()
         {
+            //Linear Search.
+            int[] arr = { 4, 6, 2, 8, 5 };
+            int find = 2;
+
+            int index = OtherAlgorithms.LinearSearch(find, arr);
+            Console.WriteLine($"Found element at {index}");
+
+
+
+
+
+            //Binary search.
+            int[] sortedArr = { 2, 4, 5, 6, 8 };
+            int find2 = 5;
+
+            int index2 = OtherAlgorithms.BinarySearch(find, sortedArr);
+            Console.WriteLine($"Found element at {index2}");
+
+
+
+
+
             //Max sum of a subarray problem. 
             int[] numbers = { 4, 2, 1, 7, 8, 1, 2, 8, 1, 0 };
             int k = 3;

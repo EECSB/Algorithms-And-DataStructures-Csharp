@@ -5,7 +5,7 @@
         //////////////////////// List properties ////////////////////////
 
         public Node<T> rootNode { get; set; } = null; //Reference to the first node.
-        public Node<T> currentNode { get; set; } = null; //Refference to the last added node.
+        public Node<T> currentNode { get; set; } = null; //Reference to the last added node.
 
         ////////////////////////////////////////////////////////////////
 

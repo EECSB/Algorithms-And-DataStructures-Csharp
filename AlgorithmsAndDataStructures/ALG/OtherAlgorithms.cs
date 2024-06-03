@@ -11,7 +11,7 @@
         /// </summary>
         /// <param name="find"></param>
         /// <param name="arr"></param>
-        /// <returns></returns>
+        /// <returns>Index of element. If not found -1 is returned.</returns>
         public static int LinearSearch(int find, int[] arr)
         {
             for (int i = 0; i < arr.Length; i++)
@@ -36,7 +36,7 @@
         /// </summary>
         /// <param name="find"></param>
         /// <param name="arr"></param>
-        /// <returns></returns>
+        /// <returns>Index of element. If not found -1 is returned.</returns>
         public static int BinarySearch(int find, int[] arr)
         {
             int left = 0;

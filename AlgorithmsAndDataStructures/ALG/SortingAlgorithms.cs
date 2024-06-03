@@ -7,7 +7,7 @@
 
         /// <summary>
         ///     Bubble sort iterates through a list and compares adjacent elements.
-        ///     If they are in the wrong order the items will be swaped.
+        ///     If they are in the wrong order the items will be swapped.
         ///     Time complexity: O(n^2), Space complexity: O(1)
         /// </summary>
         /// <param name="arr"></param>
@@ -170,14 +170,14 @@
                 arr[i] = output[i];
         }
 
-        //Note: Radix sort is very similar to counting sort but is more suitable for larger numbers as groups values it by their digits.
+        //Note: Radix sort is very similar to counting sort but is more suitable for larger numbers as it groups values by their digits.
         //Here's a great video series on radix sort: https://www.youtube.com/watch?v=_KhZ7F-jOlI&ab_channel=Creel
 
 
 
         /// <summary>
-        ///     Mergesort is a divide and conquer algorithm that recursively divides the array into two halves, 
-        ///     sorts them and finally then merges them back togeter.
+        ///     Merge sort is a divide and conquer algorithm that recursively divides the array into two halves, 
+        ///     sorts them and finally then merges them back together.
         ///     Time complexity: O(n log n), Space complexity: O(n)
         /// </summary>
         /// <param name="arr"></param>
