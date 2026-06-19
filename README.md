@@ -2,7 +2,7 @@
 
 This is the repository for the code in this blog post: [C# Basic Algorithms And Data Structures](https://eecs.blog/c-basic-algorithms-and-data-structures/)
 
-## Data structures Graphics:
+## Data Structures Graphics:
 
 <img
   alt="Data-Structures-Memory-Variable"
